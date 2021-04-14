@@ -10,7 +10,7 @@ Bunch of self-assessment stuff
 Code Review
 
 ### Artifact Enhancements
-[Software Design / Engineering](./softwaredesign)  
+[Software Design / Engineering](https://skytech6.github.io/SNHU-ePortfolio/softwaredesign)  
 [Data Structures / Algorithms]()  
 [Database]()  
 
