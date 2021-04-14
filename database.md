@@ -176,7 +176,7 @@ public class Leaderboard : MonoBehaviour
 	{
 		Entry newEntry = new Entry
 		{
-			name = "SkyTech6",
+			name = PlayerPrefs.GetString("Username"),
 			score = score
 		};
 
