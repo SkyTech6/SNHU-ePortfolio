@@ -10,10 +10,10 @@ Bunch of self-assessment stuff
 Code Review
 
 ### Artifact Enhancements
-[Software Design / Engineering]()
-[Data Structures / Algorithms]()
-[Database]()
+[Software Design / Engineering]()  
+[Data Structures / Algorithms]()  
+[Database]()  
 
 ### Personal Website
-To view my other projects, visit my resume website: https://www.skycopeland.com/
-Or to specifically view my game projects visit: https://www.fishagon.com/
+To view my other projects, visit my resume website: [SkyCopeland.com](https://www.skycopeland.com/)  
+Or to specifically view my game projects visit: [Fishagon.com](https://www.fishagon.com/)
