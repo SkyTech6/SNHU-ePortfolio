@@ -11,8 +11,8 @@ Code Review
 
 ### Artifact Enhancements
 [Software Design / Engineering](https://skytech6.github.io/SNHU-ePortfolio/softwaredesign)  
-[Data Structures / Algorithms]()  
-[Database]()  
+[Data Structures / Algorithms](https://skytech6.github.io/SNHU-ePortfolio/datastructures)  
+[Database](https://skytech6.github.io/SNHU-ePortfolio/database)  
 
 ### Personal Website
 To view my other projects, visit my resume website: [SkyCopeland.com](https://www.skycopeland.com/)  
