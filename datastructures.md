@@ -45,7 +45,7 @@ Now what I want to note here is that even though that accuracy was only somewhat
 
 [Public Github](https://github.com/SkyTech6/PokerHandPrediction)
 
-```python
+```py
 import pandas
 import warnings
 from tensorflow import keras
@@ -118,5 +118,4 @@ if __name__ == '__main__':
     plot.ylabel('accuracy')
     plot.legend(['train', 'test'], loc='upper left')
     plot.show()
-
 ```
