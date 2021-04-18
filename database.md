@@ -18,6 +18,8 @@ My next problem was in the Unity side implementation. I have a good bit of exper
 
 Overall, I’m pretty happy with the outcome.
 
+Then to round-out the project more for production release (which I don't plan until I heavily refactor this project more than just a highscore system), I created a monthly trigger in the Cloud Atlas that will purge theleaderboard collection of any documents below the top 5. I went with a trigger so that I will still be able to check how many new highscores are created each month, as well not have to deal with idenity verification if I made this part of the API. 
+
 ### Android APK
 [Universal APK](https://skytech6.github.io/SNHU-ePortfolio/downloads/treetap.apk) 
 
@@ -117,6 +119,35 @@ module.exports = function (app, db) {
         });
 
     });
+};
+```
+### Cloud Atlas Monthly Trigger
+```javascript
+exports = function() {
+
+    const mongodb = context.services.get("treetapcluster");
+    const collection = mongodb.db("treetap").collection("leaderboard");
+
+    deleteLowScores(collection);
+};
+
+async function deleteLowScores(collection) {
+  let lowestScore = 0;
+  let topFive = await collection.find({}).sort({score: -1}).limit(5).toArray();
+  
+  topFive.forEach(function(obj){
+    if(lowestScore === 0)
+    {
+      lowestScore = obj.score;  
+    }
+    
+    if(obj.score < lowestScore)
+    {
+      lowestScore = obj.score;
+    }
+  });
+  
+  const result = await collection.deleteMany({"score": {$lt: lowestScore}});
 };
 ```
 ### Integration into Unity3D
