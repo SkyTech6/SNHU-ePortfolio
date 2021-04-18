@@ -1,6 +1,6 @@
 ## Welcome to My SNHU Capstone Project
 
-Introduction to what this is 
+Throughout the Computer Science program at Southern New Hampshire University, we are frequently tasked with creating a final project or even a full small application to demonstrate our learned abilities in the course topic such as a poker hand prediction model for Machine Learning or a school’s class registration system for data structures and algorithms. Then in the final term of the program they require a Capstone project where we take 3 previous projects (“artifacts”) either from within the program or personal projects and give them enhancements that demonstrate our new skills. 
 
 ### Self Assessment
 
