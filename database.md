@@ -18,9 +18,8 @@ My next problem was in the Unity side implementation. I have a good bit of exper
 
 Overall, I’m pretty happy with the outcome.
 
-### Android APKs
-[32bit APK](https://skytech6.github.io/SNHU-ePortfolio/downloads/TreeTap.arm64-v8a.apk)  
-[64bit APK](https://skytech6.github.io/SNHU-ePortfolio/downloads/TreeTap.armeabi-v7a.apk)  
+### Android APK
+[Universal APK](https://skytech6.github.io/SNHU-ePortfolio/downloads/treetap.apk) 
 
 ### Node.js Express
 ```javascript
