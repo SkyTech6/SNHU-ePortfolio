@@ -7,7 +7,7 @@ Introduction to what this is
 Bunch of self-assessment stuff
 
 ### Code Review
-Code Review
+[Code Review - YouTube Video](https://youtu.be/eiKUBO9X5tE)
 
 ### Artifact Enhancements
 [Software Design / Engineering - INAT Bot](https://skytech6.github.io/SNHU-ePortfolio/softwaredesign)  
